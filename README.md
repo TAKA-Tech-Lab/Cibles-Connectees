@@ -28,7 +28,7 @@ Ce projet fonctionne sur un modèle Master/Slave via le protocole sans fil **ESP
 *   **Boîtiers 3D :** Les fichiers STL pour imprimer les coques de protection des composants électroniques sont disponibles sur [Lien vers Printables/Thingiverse].
 
 ## 🎥 Démonstration et Tutoriel
-Retrouvez les explications de montage, l'analyse du code et les tests de tir en conditions réelles sur notre chaîne YouTube **Taka Tech Lab** : https://youtu.be/XkP-xxUsRR8?si=pvr8lxtIPj27w1AY
+Retrouvez les explications de montage, l'analyse du code et les tests de tir en conditions réelles sur notre chaîne YouTube **Taka Tech Lab** : https://youtu.be/XkP-xxUsRR8 
 
 ---
 *Maintenu par [Taka Tech Lab]
