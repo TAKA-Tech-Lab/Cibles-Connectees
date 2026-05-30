@@ -18,11 +18,10 @@ Pour assurer une lecture correcte et instantanée des impacts, le câblage du ca
 *   **GND (Capteur)** ➔ Broche **GND** de l'ESP8266 *(Fil noir)*
 *   **DO (Digital Out Capteur)** ➔ Broche **D5** de l'ESP8266 *(Fil jaune)*
 
-## 💻 Installation (Arduino IDE)
-1. Ouvrir le fichier `target_node_esp8266.ino` avec l'IDE Arduino.
-2. S'assurer que le type de carte sélectionné est bien un "Generic ESP8266 Module".
-3. Installer les bibliothèques requises pour le protocole réseau.
-4. Flasher le code.
+## 💻 Architecture du Code (ESP-NOW)
+Ce projet fonctionne sur un modèle Master/Slave via le protocole sans fil **ESP-NOW**. Le code est divisé en deux parties distinctes :
+* **[Code de la Cible (Node)](./target_node/target_node.ino) :** Installé sur chaque cible (Alpha, Bravo, Charlie). Il lit les vibrations du capteur piézoélectrique sur la broche `D5` et envoie un signal flash via ESP-NOW lors d'un impact.
+* **[Code du Serveur (Master)](./master_server/master_server.ino) :** Installé sur le boîtier central. Il reçoit les signaux des cibles, incrémente les scores et génère un point d'accès WiFi (`Master_Cibles`) hébergeant une interface web de scoring en temps réel (accessible sur `192.168.4.1`).
 
 ## 🔗 Écosystème du Projet
 *   **Boîtier Central (Master) :** [Ajouter le lien vers le dépôt du récepteur quand il sera créé]
