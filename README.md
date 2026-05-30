@@ -3,11 +3,11 @@
 ## 🤖 À propos de ce projet
 **Organisation :** Taka Tech Lab
 **Catégorie :** Internet of Things (IoT), Tir Sportif, Maker
-**Description :** Ce dépôt contient le code source pour la création d'un nœud de détection d'impact pour cibles sportives. Ce module (Node) capte les chocs balistiques et transmet l'information au boîtier central. Ce projet a été spécifiquement codé et optimisé pour des microcontrôleurs ESP8266 en raison de leur grande disponibilité matérielle. 
+**Description :** Ce dépôt contient le code source pour la création d'un nœud de détection d'impact pour cibles sportives. Ce module (Node) capte les chocs balistiques et transmet l'information au boîtier central. Ce projet a été spécifiquement codé et optimisé pour des microcontrôleurs ESP8266 / NodeMCU 1.0 en raison de leur grande disponibilité matérielle. 
 
 ## 🛠️ Matériel Requis (Hardware)
-*   1x Microcontrôleur : NodeMCU ESP8266
-*   1x Capteur de choc / vibration (ex: module piezoélectrique KY-031)
+*   1x Microcontrôleur : NodeMCU ESP8266 / NodeMCU 1.0 
+*   1x Capteur de choc / vibration (ex: module piezoélectrique type KY-031)
 *   Fils Dupont (Rouge, Noir, Jaune)
 *   Alimentation (Batterie Lipo ou Powerbank)
 
